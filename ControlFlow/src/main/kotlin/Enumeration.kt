@@ -1,11 +1,11 @@
 fun main() {
-    val getPlayerLevel = (playerID.Setyo.value)
+    val getPlayerLevel = (playerID.Amoley.value)
     print("Player Level is $getPlayerLevel")
 }
 
 ///Enumeration Class
 enum class playerID( val value: Int){
-    Setyo(15),
-    NGR(16),
-    Nugroho(74)
+    Amoley(15),
+    SAD(16),
+    Royan(74)
 }
